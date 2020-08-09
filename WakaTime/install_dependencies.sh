@@ -11,7 +11,7 @@
 set -e
 set -x
 
-url="https://wakatime-cli.s3-us-west-2.amazonaws.com/mac-x86-64/wakatime-cli.zip"
+url="https://dl.dropboxusercontent.com/s/ocp1m4ntqh4bw2g/wakatime-cli.zip?dl=0"
 if [ -d "$INSTALL_DIR" ]; then
     extract_to="$INSTALL_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"
 else
